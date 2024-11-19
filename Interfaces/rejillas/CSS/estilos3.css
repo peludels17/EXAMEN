@@ -1,0 +1,55 @@
+.fila-flex {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .grid-fila {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .caja1 {
+    margin: 5px;
+    background-color: rgb(163, 90, 231);
+    color: white;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .caja2 {
+    margin: 5px;
+    background-color: rgb(130, 235, 121);
+    color: white;
+    height: 110px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .caja3 {
+    margin: 5px;
+    background-color: rgb(190, 91, 91);
+    color: black;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .caja4 {
+    margin: 5px;
+    background-color: rgb(185, 187, 53);
+    color: black;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

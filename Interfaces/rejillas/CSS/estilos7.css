@@ -1,0 +1,107 @@
+.encabezado {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+body {
+  margin-top: 60px; 
+  font-family: Arial, sans-serif;
+}
+
+.contenedor-principal {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.menu-izquierdo {
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 20%;
+  border-radius: 8px;
+}
+
+.menu-izquierdo ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-izquierdo li {
+  margin-bottom: 15px;
+}
+
+.menu-izquierdo a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-izquierdo a:hover {
+  text-decoration: underline;
+}
+
+.contenido-central {
+  background-color: #e6f0ff;
+  padding: 20px;
+  width: 50%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.grafico-barras {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.barra {
+  background-color: #007acc;
+  color: white;
+  width: 20%;
+  text-align: center;
+  font-size: 0.9em;
+  border-radius: 5px 5px 0 0;
+}
+
+.formulario-derecho {
+  background-color: #f9f9f9;
+  padding: 20px;
+  width: 30%;
+  border-radius: 8px;
+}
+
+.formulario-derecho form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-derecho label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.formulario-derecho input {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formulario-derecho button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formulario-derecho button:hover {
+  background-color: #005fa3;
+}

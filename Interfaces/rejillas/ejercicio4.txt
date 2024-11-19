@@ -1,0 +1,17 @@
+
+1.  ¿Qué diferencias consideras que existen entre Grid Layout y Flexbox?
+
+
+Grid Layout es para hacer diseños tipo cuadrícula, como un calendario, con filas y columnas. 
+Es ideal cuando tienes que organizar cosas de manera más compleja y necesitas controlar tanto las filas como las columnas.
+
+Flexbox es más fácil y se usa para distribuir elementos en una sola dirección, ya sea horizontal o vertical. 
+Es perfecto para cosas simples como menús, botones o listas, donde solo quieres alinear o espaciar los elementos en una línea.
+
+En resumen, usa Grid para cosas más complicadas con filas y columnas y Flexbox para alinear todo de forma más fácil en una línea.
+
+
+2.  ¿En qué casos es más adecuado utilizar uno u otro?
+
+Uso recomendado Flexbox: para alinear elementos en una dirección.
+Uso recomendado Grid: para estructuras más complejas con múltiples secciones.
